@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>noinstall.extension</id>
+    <version>1.0.0</version>
+    <owners>Wojciech Ros</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>noinstall.extension (Install)</title>
+    <authors>Wojciech Ros</authors>
+    <projectUrl>https://github.com/unsolaci/noinstall.extension</projectUrl>
+    <copyright>2021 Wojciech Ros</copyright>
+    <tags>noinstall Remove-ChocolateyPackageFromChocolatey Remove-ChocolateyPackageLibDir</tags>
+    <summary>Helper functions to remove package from Chocolatey installed packages</summary>
+    <description>
+      Helper functions to remove package from Chocolatey installed packages,
+      which allow you to execute Chocolatey package scripts without marking
+      package as installed.
+
+      I wrote this extension with a very specific use case in mind, i.e. when
+      you want Chocolatey to run the package install scripts, but do **not**
+      want Chocolatey to treat the package as _installed_.
+
+      I use is for internal packages which aren't really software installers,
+      but rather scripts that are just supposed to run, possibly periodically.
+
+      ## Usage:
+      ```
+      Remove-ChocolateyPackageFromChocolatey -PackageName PACKAGE_NAME
+      ```
+    </description>
+    <!-- =============================== --> 
+  </metadata>
+</package>
