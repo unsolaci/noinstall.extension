@@ -5,12 +5,13 @@
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>noinstall.extension</id>
     <version>1.0.0</version>
+    <packageSourceUrl>https://dev.azure.com/WNS-EIT/iVector.ai/_git/chocolatey-packages</packageSourceUrl>
     <owners>Wojciech Ros</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>noinstall.extension (Install)</title>
+    <title>noinstall.extension</title>
     <authors>Wojciech Ros</authors>
     <projectUrl>https://github.com/unsolaci/noinstall.extension</projectUrl>
     <copyright>2021 Wojciech Ros</copyright>
